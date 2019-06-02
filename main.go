@@ -5,6 +5,7 @@ import (
 	"crypto/tls"
 	"flag"
 	"fmt"
+	"github.com/marko-ciric/permissions/testdata"
 	"log"
 	"net"
 	"strings"
@@ -15,7 +16,6 @@ import (
 	ecpb "google.golang.org/grpc/examples/features/proto/echo"
 	"google.golang.org/grpc/metadata"
 	"google.golang.org/grpc/status"
-	"google.golang.org/grpc/testdata"
 )
 
 var (
