@@ -5,10 +5,11 @@ import (
 	"crypto/tls"
 	"flag"
 	"fmt"
-	"github.com/marko-ciric/permissions/testdata"
 	"log"
 	"net"
 	"strings"
+
+	"github.com/marko-ciric/permissions/testdata"
 
 	"google.golang.org/grpc"
 	"google.golang.org/grpc/codes"
